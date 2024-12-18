@@ -1,0 +1,32 @@
+html, body, .container, div, header, h1 {
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    width: 480px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 24px 0px;
+}
+
+header {
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+}
